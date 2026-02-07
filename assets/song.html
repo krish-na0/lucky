@@ -126,9 +126,7 @@ let index = 0;
 /* Auto Play After Page Load */
 window.onload = () => {
 
-  song.play().catch(()=>{
-    lyricsBox.innerText="▶️ Tap anywhere to start...";
-  });
+  song.play();
 
 };
 
